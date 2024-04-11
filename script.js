@@ -11,3 +11,9 @@ function LampOn() {
         lamp.src = '../img/lampada_acesa.jpeg';
     }
 }
+
+function LampOff() {
+    if (!IsLampBroken()) {
+        lamp.src = '../img/lampada_desligada.jpeg';
+    }
+}
